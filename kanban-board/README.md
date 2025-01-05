@@ -7,5 +7,6 @@
 3. npm run start
 
 # description
-- resize the window browser
-- text will display the browser width
+- Add new task
+- press Add button
+- drag task from one column to another

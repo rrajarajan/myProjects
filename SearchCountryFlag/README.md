@@ -7,6 +7,5 @@
 3. npm run start
 
 # description
-- Click Choose File button
-- add image from device
-- file loads on the page
+- type country name in the search bar
+- country and flag will filter according to the text search
