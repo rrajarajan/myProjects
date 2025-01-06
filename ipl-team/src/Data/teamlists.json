@@ -1,0 +1,59 @@
+[
+    
+    {
+      "id": 1,
+      "team": "Kolkata Knight Riders",
+      "home_team_logo": "https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/KKR/Logos/Roundbig/KKRroundbig.png"
+    
+    },
+    {
+      "id": 2,
+      "team": "Rajasthan Royals",
+      "home_team_logo":"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RR/Logos/Roundbig/RRroundbig.png"
+    },
+   
+    {
+      "id": 3,
+      "team": "Gujarat Titans",
+      "home_team_logo":"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/GT/Logos/Roundbig/GTroundbig.png"
+
+    },
+    {
+      "id": 4,
+      "team": "Chennai Super Kings",
+      "home_team_logo":"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/CSK/logos/Roundbig/CSKroundbig.png"
+    },
+    {
+      "id": 5,
+      "team": "Lucknow Super Giants",
+      "home_team_logo":"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/LSG/Logos/Roundbig/LSGroundbig.png"
+    },
+    {
+      "id": 6,
+      "team": "Delhi Daredevils",
+      "home_team_logo":"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/DC/Logos/Roundbig/DCroundbig.png"
+    },
+    
+    {
+      "id": 7,
+      "team": "Mumbai Indians",
+      "home_team_logo":"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/MI/Logos/Roundbig/MIroundbig.png"
+
+    },
+    {
+      "id": 8,
+      "team": "Sunrisers Hyderabad",
+      "home_team_logo":"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/SRH/Logos/Roundbig/SRHroundbig.png"
+    },
+    
+    {
+      "id": 9,
+      "team": "Royal Challengers Bangalore",
+      "home_team_logo":"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/RCB/Logos/Roundbig/RCBroundbig.png"
+    },
+    {
+      "id": 10,
+      "team": "Kings XI Punjab",
+      "home_team_logo":"https://bcciplayerimages.s3.ap-south-1.amazonaws.com/ipl/PBKS/Logos/Roundbig/PBKSroundbig.png"
+    }
+  ]

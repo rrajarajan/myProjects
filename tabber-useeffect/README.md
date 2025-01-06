@@ -2,9 +2,8 @@
 - use node 22 or below
 
 # Getting Started 
-1. cd client
-2. npm install
-3. npm run start
+1. npm install
+2. npm run start
 
 # description
 - tab button to select POST, USERS, COMMENTS

@@ -6,5 +6,5 @@
 2. npm run start
 
 # description
-- resize the window browser
-- text will display the browser width
+- Select Teams and view players in each team
+- Select Home to view match

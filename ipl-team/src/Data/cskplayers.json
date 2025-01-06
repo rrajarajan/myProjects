@@ -1,0 +1,157 @@
+[
+    {
+        "player_id": 1,
+        "player_name": "MS Dhoni",
+        "player_image": "https://assets.iplt20.com/ipl/IPLHeadshot2022/1.png",
+        "Role":"Wicketkeeper Batter"
+
+    },
+    {
+        "player_id":2,
+        "player_name":"C Hari Nishaanth",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/7111.png",
+        "Role":" Batter"
+    },
+    {
+        "player_id":3,
+        "player_name":"Devon Conway",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/20572.png",
+        "Role":"WK-Batsman"
+    },
+    {
+        "player_id":4,
+        "player_name":"Robin Uthappa",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/127.png",
+        "Role":"Batter"
+    },
+    {
+        "player_id":5,
+        "player_name":"Ravindra Jadeja",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/9.png",
+        "Role":"All-rounder"
+    },
+    {
+        "player_id":6,
+        "player_name":"Ruturaj Gaikwad",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/5443.png",
+        "Role":"Batter"
+    },
+    {
+        "player_id":7,
+        "player_name":"Subhranshu Senapati",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/20574.png",
+        "Role":"Batter"
+    },
+    {
+        "player_id":8,
+        "player_name":"Ambati Rayudu",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/100.png",
+        "Role":"Wicketkeeper Batter"
+    },
+    {
+        "player_id":9,
+        "player_name":"Narayan Jagadeesan",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/4942.png",
+        "Role":"Wicketkeeper Batter"
+    },
+    {
+        "player_id":10,
+        "player_name":"Chris Jordan",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/1299.png",
+        "Role":"Bowler"
+    },
+    {
+        "player_id": 11,
+        "player_name": "Dwaine Pretorius",
+        "player_image": "https://assets.iplt20.com/ipl/IPLHeadshot2022/20573.png",
+        "Role":"Bowling Allrounder"
+
+    },
+    {
+        "player_id":12,
+        "player_name":"Dwayne Bravo",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/25.png",
+        "Role":"All-rounder"
+    },
+    {
+        "player_id":13,
+        "player_name":"Mitchell Santner",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/1903.png",
+        "Role":"Bowling all-rounder"
+    },
+    {
+        "player_id":14,
+        "player_name":"K Bhagath Varma",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/7105.png",
+        "Role":"Bowling all-rounder"
+    },
+    {
+        "player_id":15,
+        "player_name":"Moeen Ali",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/1735.png",
+        "Role":"Batting all-rounder"
+    },
+    {
+        "player_id":16,
+        "player_name":"Rajvardhan Hangargekar",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/20571.png",
+        "Role":"Bowler"
+    },
+    {
+        "player_id":17,
+        "player_name":"Shivam Dube",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/5431.png",
+        "Role":"All-rounder"
+    },
+    {
+        "player_id":18,
+        "player_name":"Adam Milne",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/434.png",
+        "Role":"Bowler"
+    },
+    {
+        "player_id":19,
+        "player_name":"Deepak Chahar",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/140.png",
+        "Role":"Bowler"
+    },
+    {
+        "player_id":20,
+        "player_name":"KM Asif",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/4944.png",
+        "Role":"Bowler"
+    },
+    {
+        "player_id": 21,
+        "player_name": "Maheesh Theekshana",
+        "player_image": "https://assets.iplt20.com/ipl/IPLHeadshot2022/20570.png",
+        "Role":"Bowler"
+
+    },
+    {
+        "player_id":22,
+        "player_name":"Mukesh Choudhary",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/20575.png",
+        "Role":"Bowler"
+    },
+    {
+        "player_id":23,
+        "player_name":"Prashant Solanki",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/20576.png",
+        "Role":"Bowler"
+    },
+    {
+        "player_id":24,
+        "player_name":"Simarjeet Singh",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/10789.png",
+        "Role":"Bowler"
+
+    },
+    {
+        "player_id":25,
+        "player_name":"Tushar Deshpande",
+        "player_image":"https://assets.iplt20.com/ipl/IPLHeadshot2022/3257.png",
+        "Role":"Bowler"
+    }
+
+]
