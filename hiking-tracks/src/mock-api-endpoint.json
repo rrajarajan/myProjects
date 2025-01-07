@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Grampians Hiking Trail",
+      "type": "hiking",
+      "description": "Beautiful trail with scenic views.",
+      "latitude": -37.1234,
+      "longitude": 142.4567
+    },
+    {
+      "id": 2,
+      "name": "Great Ocean Road Bike Route",
+      "type": "bicycle",
+      "description": "Coastal route with breathtaking views.",
+      "latitude": -38.1234,
+      "longitude": 144.4567
+    },
+    {
+      "id": 3,
+      "name": "Yarra Bend Camping Site",
+      "type": "camping",
+      "description": "Perfect spot for weekend camping.",
+      "latitude": -37.7890,
+      "longitude": 145.1234
+    },
+    {
+      "id": 4,
+      "name": "Erskine Falls",
+      "type": "waterfalls",
+      "description": "Magnificent waterfall in lush greenery.",
+      "latitude": -38.5123,
+      "longitude": 143.9987
+    },
+    {
+      "id": 5,
+      "name": "One Tree Hill",
+      "type": "hiking",
+      "description": "Located in the Footsteps of Mt Dandenong",
+      "latitude": -37.882485559333404,
+      "longitude": 145.31666665357488
+    },
+    {
+      "id": 6,
+      "name": "Grampians Hiking Trail",
+      "type": "hiking",
+      "description": "Beautiful trail with scenic views.",
+      "latitude": -37.1234,
+      "longitude": 142.4567
+    },
+    {
+      "id": 7,
+      "name": "Grampians Hiking Trail",
+      "type": "hiking",
+      "description": "Beautiful trail with scenic views.",
+      "latitude": -37.1234,
+      "longitude": 142.4567
+    },
+    {
+      "id": 8,
+      "name": "Mt Donna Buang",
+      "type": "hiking",
+      "description": "Beautiful trail with scenic views.",
+      "latitude": -37.70671037377611, 
+      "longitude": 145.68183002768902
+    },
+    {
+      "id": 9,
+      "name": "Mt Kosciuszko",
+      "type": "hiking",
+      "description": "Beautiful trail with scenic views.",
+      "latitude": -36.45437183343927, 
+      "longitude": 148.26419819657696
+    }        
+  ]
+  
