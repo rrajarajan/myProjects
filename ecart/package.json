@@ -1,0 +1,25 @@
+{
+  "name": "ecart",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Built with MERN Stack, version 22",
+  "proxy": "http://localhost:5001",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "author": "Raj Rajarajan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
+  }
+}
