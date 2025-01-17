@@ -8,36 +8,46 @@ import products from '../products';
 
 
 const HomeScreen = () => {
-  const [product, setProduct] = useState([]);
-  const [APIData, setAPIData] = useState([])
-  
-  
+  //GET from BACKEND
+  // const [products, setProducts] = useState([]); /*empty array*/
+  // useEffect(() => {
+  //   const fetchProducts = async () => {
+  //     const { data } = await axios.get("/api/products");
 
-  useEffect(() => {
-    axios.get(`https://jsonplaceholder.typicode.com/users`)
-        .then((response) => {
-            setAPIData(response.data);
-        })
-  }, [])
+  //     setProducts(data);
+  //   };
+  //   fetchProducts();
+  // }, []);
+
+  // TEST - get API calls
+  // const [APIData, setAPIData] = useState([])
+  // useEffect(() => {
+  //   axios.get(`https://jsonplaceholder.typicode.com/users`)
+  //       .then((response) => {
+  //           setAPIData(response.data);
+  //       })
+  // }, [])
 
   return (
     <>
     <h1>Latest Products</h1>
         <Row>
         {products.map((product) => (
-            <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
+            <Col  sm={12} md={6} lg={4} xl={3}>
                 <ProductComponent product={product} />
             </Col>
         ))}
         </Row>
-        <Row>
+        {/* // TEST - show API calls */}
+        {/* <Row>
+        <hr />
         {APIData.map((item) => (
-          <div>
+          <Col>
             <h1>{item.name}</h1>
             <p>{item.email}</p>
-          </div>
+          </Col>
         ))}
-        </Row>        
+        </Row>         */}
     </>
   )
 }

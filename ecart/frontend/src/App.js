@@ -10,7 +10,6 @@ const App = () => {
     <>
       <Header />
       <main className='py-3'>
-        <h1>Welcome TO Proshop</h1>
         <Container>
           <Outlet />
         </Container>
