@@ -4,27 +4,25 @@ import ProductComponent from '../component/ProductComponent'
 import axios from 'axios';
 
 //GET from FRONTEND
-import products from '../products';
-
+// import products from '../products';
 
 const HomeScreen = () => {
+  
   //GET from BACKEND
-  // const [products, setProducts] = useState([]); /*empty array*/
-  // useEffect(() => {
-  //   const fetchProducts = async () => {
-  //     const { data } = await axios.get("/api/products");
+  const [products, setProducts] = useState([]);
 
-  //     setProducts(data);
-  //   };
-  //   fetchProducts();
-  // }, []);
+  useEffect(() => {
+    axios.get(`http://localhost:5001/api/products`)
+        .then((response) => {
+          setProducts(response.data);
+        })
+  }, [])
 
-  // TEST - get API calls
-  // const [APIData, setAPIData] = useState([])
+  // GET using FETCH method
   // useEffect(() => {
-  //   axios.get(`https://jsonplaceholder.typicode.com/users`)
+  //   fetch(`http://localhost:5001/api/products`)
   //       .then((response) => {
-  //           setAPIData(response.data);
+  //         setProducts(response.data);
   //       })
   // }, [])
 
@@ -37,17 +35,7 @@ const HomeScreen = () => {
                 <ProductComponent product={product} />
             </Col>
         ))}
-        </Row>
-        {/* // TEST - show API calls */}
-        {/* <Row>
-        <hr />
-        {APIData.map((item) => (
-          <Col>
-            <h1>{item.name}</h1>
-            <p>{item.email}</p>
-          </Col>
-        ))}
-        </Row>         */}
+        </Row>        
     </>
   )
 }
