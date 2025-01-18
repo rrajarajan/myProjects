@@ -2,8 +2,6 @@ import React, {useEffect, useState} from 'react'
 import { Row, Col } from 'react-bootstrap';
 import ProductComponent from '../component/ProductComponent'
 import axios from 'axios';
-// import { useGetProductDetailsQuery } from '../slices/productsApiSlice';
-
 
 //GET from FRONTEND
 // import products from '../products';
@@ -14,10 +12,11 @@ const HomeScreen = () => {
   // using AXIOS - useEffect
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    axios.get(`/api/products`)
-        .then((response) => {
-          setProducts(response.data);
-        })
+    const fetchProducts = async () => {
+      const { data } = await axios.get(`/api/products`);
+      setProducts(data);
+    }
+    fetchProducts();
   }, [])
 
   // GET using FETCH - useEffect
