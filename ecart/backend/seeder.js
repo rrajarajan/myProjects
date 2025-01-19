@@ -12,7 +12,7 @@ dotenv.config();
 
 connectDB();
 
-console.log('Databse Connected!'.cyan.inverse);
+console.log('Database Connected!'.cyan.inverse);
 
 const importData = async () => {
   try {

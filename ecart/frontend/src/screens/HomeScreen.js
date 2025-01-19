@@ -8,8 +8,8 @@ import axios from 'axios';
 
 const HomeScreen = () => {
   
-  // GET from BACKEND
-  // using AXIOS - useEffect
+  // @desc    Fetch product FETCH with useEffect
+  // using AXIOS
   const [products, setProducts] = useState([]);
   useEffect(() => {
     const fetchProducts = async () => {
@@ -19,7 +19,8 @@ const HomeScreen = () => {
     fetchProducts();
   }, [])
 
-  // GET using FETCH - useEffect
+  // @desc    Fetch product FETCH with useEffect
+  // using FETCH
   // useEffect(() => {
   //   fetch(`http://localhost:5001/api/products`)
   //       .then((response) => {
