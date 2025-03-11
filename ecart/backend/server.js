@@ -1,5 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
+import cookieParser from 'cookie-parser';
 dotenv.config();
 import connectDB from './config/db.js';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
@@ -17,6 +18,9 @@ const app = express();
 //BODY parse middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+//cookie parser middleware
+app.use(cookieParser());
 
 // Allow specific origin
 app.use(cors({ origin: 'http://localhost:3000' }));
